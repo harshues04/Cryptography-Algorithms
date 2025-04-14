@@ -91,8 +91,5 @@ cryptography-algorithms/
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
 
-- Developed as part of the Semester-6 Cryptography Techniques coursework
-- Thanks to all contributors and testers who helped improve this project
 
