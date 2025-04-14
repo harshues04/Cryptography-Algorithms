@@ -2,7 +2,7 @@
 
 This repository includes implementation of 13 cryptographic algorithms in C and also has a React and Typescript based frontend. 
 
-A React-based web application for exploring and implementing cryptographic algorithms, built as part of Semester-6 coursework for Cryptography Techniques. The app features a sleek, dark-themed interface with a forest-inspired color palette, providing an interactive way to encrypt and decrypt text using various ciphers.
+A React-based web application for exploring and implementing cryptographic algorithms, built as part of Semester-6 coursework for Cryptography Techniques.
 
 **[Live Demo](https://harshues04.github.io/Cryptography-Algorithms)**
 
