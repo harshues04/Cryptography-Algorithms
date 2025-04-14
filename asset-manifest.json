@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/crypto-algorithms/static/css/main.de0d38db.css",
-    "main.js": "/crypto-algorithms/static/js/main.3ece84b7.js",
-    "index.html": "/crypto-algorithms/index.html",
-    "main.de0d38db.css.map": "/crypto-algorithms/static/css/main.de0d38db.css.map",
-    "main.3ece84b7.js.map": "/crypto-algorithms/static/js/main.3ece84b7.js.map"
+    "main.css": "/Cryptography-Algorithms/static/css/main.de0d38db.css",
+    "main.js": "/Cryptography-Algorithms/static/js/main.3ece84b7.js",
+    "index.html": "/Cryptography-Algorithms/index.html",
+    "main.de0d38db.css.map": "/Cryptography-Algorithms/static/css/main.de0d38db.css.map",
+    "main.3ece84b7.js.map": "/Cryptography-Algorithms/static/js/main.3ece84b7.js.map"
   },
   "entrypoints": [
     "static/css/main.de0d38db.css",
