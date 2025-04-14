@@ -64,7 +64,12 @@ void caesarCipher(char *text, int shift) {
     }
 }
 
-/* 3. Affine Cipher */
+/* 3. August Cipher */
+void augustCipher(char *text) {
+    caesarCipher(text, 1); // Fixed shift of 1
+}
+
+/* 4. Affine Cipher */
 void affineCipherEncrypt(char *text, int a, int b) {
     if (gcd(a, 26) != 1) {
         printf("Error: 'a' must be coprime to 26.\n");
@@ -667,6 +672,7 @@ int main() {
         printf("10. Rail Fence Cipher\n");
         printf("11. Route Cipher\n");
         printf("12. Columnar Transposition Cipher\n");
+        printf("13. August Cipher\n");
         printf("0. Exit\n");
         printf("Enter your choice: ");
         scanf("%s", option);
@@ -888,6 +894,17 @@ int main() {
                 columnarTranspositionDecrypt(text, key);
             }
             printf("Result: %s\n", text);
+        }
+        else if (strcmp(option, "13") == 0) {
+            // August Cipher
+            printf("Mode (1 for encrypt/decrypt): ");
+            int mode;
+            scanf("%d", &mode);
+            
+            if (mode == 1) {
+                augustCipher(text);
+                printf("Result: %s\n", text);
+            }
         }
         else {
             printf("Invalid option!\n");
